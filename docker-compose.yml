@@ -1,0 +1,15 @@
+networks:
+    employee_testing:
+        external: true
+
+services:
+
+    service:
+        image: sebn-employee-testing
+        env_file: ./.env
+        networks:
+            default_ppz:
+                aliases:
+                    - sebn-employee-testing
+
+version: "3.8"

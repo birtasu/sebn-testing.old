@@ -1,0 +1,8 @@
+services:
+
+  service:
+    build:
+      context: ./
+    image: sebn-employee-testing
+
+version: "3.8"
