@@ -3,4 +3,5 @@
 .idea/
 #ENV
 .env
-out
+# Сам файл gitignore
+.gitignore
