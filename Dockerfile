@@ -12,6 +12,7 @@ RUN apt-get update \
 
 COPY ./ ./
 
-RUN chmod -R 775 www/resources/
+RUN chmod -R 775 www/lib/
+RUN chmod -R 775 www/img/
 
 COPY 000-default.conf /etc/apache2/sites-available/
