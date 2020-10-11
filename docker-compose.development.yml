@@ -32,6 +32,8 @@ services:
       MYSQL_PASSWORD: ${DEFAULT_DATABASE_PASSWORD}
       MYSQL_ROOT_PASSWORD: ${DEFAULT_DATABASE_PASSWORD}
       TZ: ${DEFAULT_TIME_ZONE}
+    volumes:
+    - ./dump:/docker-entrypoint-initdb.d
     networks:
       employee_testing:
         aliases:

@@ -90,12 +90,12 @@ $content .= '
   if(isset($_POST['submit'])) 
   {    
  
-    $data = mysqli_fetch_assoc($connection->query("SELECT * FROM `Preproduction`.`users` WHERE `users_login`='".$connection->real_escape_string($_POST['empl'])."' and `testuvannya` = '1' LIMIT 1"));
+    $data = mysqli_fetch_assoc($connection->query("SELECT * FROM `users` WHERE `users_login`='".$connection->real_escape_string($_POST['empl'])."' and `testuvannya` = '1' LIMIT 1"));
 
 	if($data['users_password'] === md5(md5($_POST['pass']))) 
     {
       $hash = md5(generateCode(10));
-      $connection->query("UPDATE `Preproduction`.`users` SET users_hash='".$hash."' WHERE `users_id`='".$data['users_id']."'")or die ("<br>Invalid query: " . $connection->error);
+      $connection->query("UPDATE `users` SET users_hash='".$hash."' WHERE `users_id`='".$data['users_id']."'")or die ("<br>Invalid query: " . $connection->error);
 
       setcookie("id", $data['users_id']);
       setcookie("login", $data['users_login']);

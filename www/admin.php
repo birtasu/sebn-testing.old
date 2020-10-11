@@ -91,7 +91,7 @@ include 'config.php'; include 'conf.php';
 
 if (isset($_COOKIE['id'])) 
 {    
-    $userdata = mysqli_fetch_assoc($connection->query("SELECT * FROM `Preproduction`.`users` WHERE users_id = '".intval($_COOKIE['id'])."' and `testuvannya` = '1' LIMIT 1"));
+    $userdata = mysqli_fetch_assoc($connection->query("SELECT * FROM `users` WHERE users_id = '".intval($_COOKIE['id'])."' and `testuvannya` = '1' LIMIT 1"));
 
      if($userdata['users_id'] !== $_COOKIE['id'])
     { 
@@ -120,11 +120,11 @@ if (isset($_GET['exit']))
 
 $districts = array();
 $category = array();	
-$result = $connection->query("select * from `Preproduction`.`test_districts`");
+$result = $connection->query("select * from `test_districts`");
 while ($row = mysqli_fetch_assoc($result)) {
 	$districts[] = $row;
 }
-$result = $connection->query("select * from `Preproduction`.`test_category`");
+$result = $connection->query("select * from `test_category`");
 while ($row = mysqli_fetch_assoc($result)) {
 	$category[] = $row;
 }
@@ -135,6 +135,7 @@ $content .= '
   <a class="item active" data-tab="first"><i class="file text outline icon"></i> Створити тестування</a>
   <a class="item" data-tab="second"><i class="bar chart icon"></i> Результати</a>
   <a class="item" data-tab="read"><i class="write icon"></i> Редагування</a>
+  <a class="item" data-tab="admins"><i class="user outline icon"></i> Адміністратори</a>
   <a class="item" href="index.php"><i class="sign out icon"></i> Вихід</a>
 </div>
 <div class="ui bottom attached tab segment active" data-tab="first" style="width: 80%; margin: auto; top: 2%; position: relative;">
@@ -191,6 +192,16 @@ for ($k = 0; $k < count($category); $k++){
 
 	
 $content .='	
+</div>
+<div class="ui bottom attached tab segment" data-tab="admins" style="width: 80%; margin: auto; top: 2%; position: relative;">';
+
+$result = $connection->query("select * from `users`");
+$content .= '<table class="ui celled table" id="datatable"><thead><tr><th>Дата додавання</th><th>Табельний</th><th>ПІБ</th><th>Дії</th></tr></thead><tbody>';
+
+while ($row = mysqli_fetch_assoc($result)) {
+    $content .= '<tr><td>'.$row['data'].'</td><td>'.$row['users_login'].'</td><td>ПІБ</td><td><i class="line minus icon del_admin" data-id="'.$row['users_id'].'"></i></td></tr>';
+}
+$content .= '<tr><td colspan="4" style="text-align: center;"><i class="plus green icon add_admin"></i></td></tr></tbody></table>
 </div>
 <div class="ui small modal" style="width: 60%; margin: 0 0 0 -30%;">
   <div class="header">Результати тестування: </div>
@@ -327,6 +338,23 @@ $('body').on('click', '.del_districts', function(){
 		});
 	}
 });
+$('body').on('click', '.del_admin', function(){
+    var a = confirm('Дійсно бажаєте видалити адміністратора?');
+    var b = $(this).data('id');
+    if(a == true){
+        $.ajax({
+            type: "POST",
+            url: "data.php",
+            data: {del_admin: b},
+            dataType: "json",
+            success: function(response){
+                alert(response.result);
+                location.reload();
+            }
+        });
+    }
+});
+
 $('body').on('click', '.del_category', function(){
 	var a = confirm('Дійсно бажаєте видалити цю категорію?');
 	var b = $(this).data('id');
@@ -377,6 +405,23 @@ $('body').on('click', '.add_category', function(){
 		alert("Не збережено! Поле було пустим!")
 	}
 });
+$('body').on('click', '.add_admin', function(){
+    var a = prompt('Введіть табельний номер:');
+    if(a.length > 0){
+        $.ajax({
+            type: "POST",
+            url: "data.php",
+            data: {new_admin: a},
+            dataType: "json",
+            success: function(response){
+                alert(response.result);
+                location.reload();
+            }
+        });
+    }else{
+        alert("Не збережено! Поле було пустим!")
+    }
+});
 $('#search').on('input', function(){
 	// $.ajax({
 	// 	type: "POST",
@@ -394,8 +439,8 @@ $('#search').on('input', function(){
 	// 		}
 	// 	}
 	// });
-    $('.result').val("test");
-    $('.result').data('info', "test2");
+    $('.result').val("Тут має бути ПІБ");
+    $('.result').data('info', "Тут має бути посада");
     //$('.img').html(response.result_3);
     if($('.result').val().length > '0'){
         $('.plus.icon.add_user').show();

@@ -1,509 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb55cf2-7a6e-41e3-b7fe-b4ace5650c93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/datatable/dataTables.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/datatable/dataTables.semanticui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/datatable/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/.versions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/accordion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/accordion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/accordion.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/accordion.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/ad.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/ad.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/api.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/breadcrumb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/breadcrumb.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/button.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/card.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/checkbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/checkbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/checkbox.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/checkbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/colorize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/colorize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/comment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/comment.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/container.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/container.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/dimmer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/dimmer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/dimmer.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/dimmer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/divider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/divider.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/dropdown.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/dropdown.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/dropdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/embed.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/embed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/embed.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/embed.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/feed.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/feed.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/flag.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/flag.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/form.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/form.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/header.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/icon.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/image.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/image.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/input.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/input.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/item.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/label.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/label.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/list.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/loader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/loader.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/menu.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/message.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/message.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/modal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/modal.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/modal.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/nag.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/nag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/nag.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/nag.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/popup.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/popup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/progress.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/progress.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/progress.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/progress.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/rail.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/rail.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/rating.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/rating.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/rating.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/rating.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/reset.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/reveal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/reveal.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/search.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/search.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/search.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/segment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/segment.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/shape.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/shape.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/shape.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/shape.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/sidebar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/sidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/sidebar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/sidebar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/site.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/site.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/state.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/state.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/statistic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/statistic.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/step.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/step.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/sticky.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/sticky.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/sticky.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/sticky.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/tab.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/tab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/tab.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/tab.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/table.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/transition.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/transition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/transition.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/transition.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/video.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/video.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/video.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/visibility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/visibility.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/visit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/components/visit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/font.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/jquery-2.1.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/package.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/semantic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/semantic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/semantic.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/semantic.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/RELEASE-NOTES.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/assets/fonts/icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/assets/fonts/icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/assets/fonts/icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/assets/fonts/icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/assets/fonts/icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/icon.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/package.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/basic/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/RELEASE-NOTES.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/brand-icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/brand-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/brand-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/brand-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/brand-icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/icons.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/outline-icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/outline-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/outline-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/outline-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/fonts/outline-icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/assets/images/flags.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/icon.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/package.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/default/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/github/assets/fonts/octicons-local.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/github/assets/fonts/octicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/github/assets/fonts/octicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/dist/themes/github/assets/fonts/octicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/css/highcharts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/highcharts-3d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/highcharts-3d.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/highcharts-3d.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/highcharts-more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/highcharts-more.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/highcharts-more.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/highcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/highcharts.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/highcharts.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/highmaps.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/highstock.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/highcharts-3d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/highcharts-3d.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/highcharts-3d.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/highcharts-more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/highcharts-more.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/highcharts-more.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/highcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/highcharts.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/highcharts.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/highmaps.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/highstock.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/accessibility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/accessibility.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/accessibility.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/annotations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/annotations.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/annotations.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/boost-canvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/boost-canvas.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/boost-canvas.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/boost.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/boost.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/boost.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/broken-axis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/broken-axis.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/broken-axis.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/canvasrenderer.experimental.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/data.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/data.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/drilldown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/drilldown.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/drilldown.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/export-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/export-data.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/export-data.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/exporting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/exporting.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/exporting.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/funnel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/funnel.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/funnel.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/gantt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/gantt.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/gantt.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/grid-axis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/grid-axis.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/grid-axis.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/heatmap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/heatmap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/heatmap.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/map-parser.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/map.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/no-data-to-display.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/no-data-to-display.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/no-data-to-display.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/offline-exporting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/offline-exporting.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/offline-exporting.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/overlapping-datalabels.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/overlapping-datalabels.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/overlapping-datalabels.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/series-label.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/series-label.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/series-label.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/solid-gauge.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/solid-gauge.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/solid-gauge.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/static-scale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/static-scale.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/static-scale.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/stock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/stock.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/stock.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/treemap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/treemap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/treemap.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/xrange-series.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/xrange-series.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/modules/xrange-series.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/avocado.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/avocado.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/avocado.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/dark-blue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/dark-blue.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/dark-blue.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/dark-green.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/dark-green.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/dark-green.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/dark-unica.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/dark-unica.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/dark-unica.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/gray.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/gray.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/gray.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/grid-light.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/grid-light.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/grid-light.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/grid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/grid.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/grid.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/sand-signika.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/sand-signika.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/sand-signika.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/skies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/skies.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/skies.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/sunset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/sunset.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/js/themes/sunset.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/lib/canvg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/lib/canvg.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/lib/jspdf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/lib/jspdf.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/lib/rgbcolor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/lib/rgbcolor.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/lib/svg2pdf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/lib/svg2pdf.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/accessibility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/accessibility.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/accessibility.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/annotations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/annotations.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/annotations.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/boost-canvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/boost-canvas.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/boost-canvas.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/boost.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/boost.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/boost.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/broken-axis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/broken-axis.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/broken-axis.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/canvasrenderer.experimental.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/data.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/data.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/drilldown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/drilldown.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/drilldown.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/export-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/export-data.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/export-data.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/exporting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/exporting.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/exporting.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/funnel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/funnel.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/funnel.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/gantt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/gantt.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/gantt.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/grid-axis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/grid-axis.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/grid-axis.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/heatmap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/heatmap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/heatmap.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/map-parser.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/map.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/no-data-to-display.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/no-data-to-display.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/no-data-to-display.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/offline-exporting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/offline-exporting.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/offline-exporting.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/overlapping-datalabels.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/overlapping-datalabels.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/overlapping-datalabels.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/series-label.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/series-label.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/series-label.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/solid-gauge.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/solid-gauge.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/solid-gauge.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/static-scale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/static-scale.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/static-scale.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/stock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/stock.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/stock.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/treemap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/treemap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/treemap.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/xrange-series.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/xrange-series.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/modules/xrange-series.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/avocado.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/avocado.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/avocado.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/dark-blue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/dark-blue.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/dark-blue.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/dark-green.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/dark-green.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/dark-green.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/dark-unica.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/dark-unica.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/dark-unica.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/gray.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/gray.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/gray.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/grid-light.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/grid-light.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/grid-light.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/grid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/grid.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/grid.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/sand-signika.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/sand-signika.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/sand-signika.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/skies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/skies.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/skies.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/sunset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/sunset.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/highcharts/themes/sunset.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/126.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/127.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/133.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/133/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/133/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/133/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/133/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/134.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/135.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/266.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/267.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/268.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/269.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/275.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/275/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/275/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/275/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/275/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/276.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/277.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/278.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/279.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/280.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/281.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/285.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/286.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/288.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/289.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/290.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/291.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/292.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/293.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/294.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/295.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/370.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/371.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/372.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/373.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/374.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/375.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/376.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/377.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/378.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/389.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/390.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/bg3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/error_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/img/info.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/nprogress/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/nprogress/History.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/nprogress/License.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/nprogress/Notes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/nprogress/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/nprogress/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/nprogress/component.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/nprogress/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/nprogress/nprogress.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/nprogress/nprogress.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/nprogress/support/extras.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/resources/nprogress/support/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.development.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.development.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/test.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -513,6 +38,9 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hS9vJwC8b9MQBsCeHsIwLWA0rk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -520,6 +48,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -528,13 +57,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/www/resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/www" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/../ppz/www" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dump" />
+      <recent name="$PROJECT_DIR$/www/resources" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -553,11 +83,23 @@
       <workItem from="1601912176874" duration="37428000" />
       <workItem from="1602096213382" duration="1978000" />
       <workItem from="1602427357349" duration="2810000" />
+      <workItem from="1602445887746" duration="12411000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" width="800" height="671" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600275268127">

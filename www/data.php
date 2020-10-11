@@ -31,6 +31,8 @@ $id_location = $_POST['id_location'];
 
 $new_districts = $_POST['new_districts'];
 $del_districts = $_POST['del_districts'];
+$del_admin = $_POST['del_admin'];
+$new_admin = $_POST['new_admin'];
 
 $new_category = $_POST['new_category'];
 $del_category = $_POST['del_category'];
@@ -200,6 +202,20 @@ if(isset($del_districts)){
 	$data = mysqli_fetch_assoc($connection->query("DELETE FROM test_districts WHERE id = '".$del_districts."'"));
 	$data = mysqli_fetch_assoc($connection->query("DELETE FROM test_location WHERE locID = '".$del_districts."'"));
 	echo json_encode(array("result"=>"Дільницю успішно видалено!"));
+}
+if(isset($del_admin)){
+    $data = mysqli_fetch_assoc($connection->query("DELETE FROM users WHERE users_id = '".$del_admin."'"));
+    echo json_encode(array("result"=>"Адміністратора успішно видалено!"));
+}
+if(isset($new_admin)){
+    $a = mysqli_fetch_assoc($connection->query("SELECT * FROM users WHERE users_login = '".$new_admin."'"));
+    if(!isset($a['users_id'])){
+        $password = md5(md5(trim('test123')));
+        $data = mysqli_fetch_assoc($connection->query("INSERT INTO users (users_login, users_password, testuvannya) VALUES ('".$new_admin."', '".$password."', '1')"));
+        echo json_encode(array("result"=>"Адміністратора успішно додано!"));
+    }else{
+        echo json_encode(array("result"=>"Такий адміністратор уже є!"));
+    }
 }
 if(isset($new_category)){
 	$a = mysqli_fetch_assoc($connection->query("SELECT * FROM test_category WHERE name = '".$new_category."'"));
